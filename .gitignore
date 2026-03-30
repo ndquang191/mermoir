@@ -1,0 +1,26 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Go
+api/bin/
+worker/bin/
+*.exe
+
+# Node / UI
+ui/node_modules/
+ui/dist/
+ui/.pnpm-debug.log*
+ui/src/routeTree.gen.ts
+
+# Storage (uploaded files)
+storage/
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+.claude/
